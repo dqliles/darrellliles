@@ -290,15 +290,15 @@ var Header = function (_Component) {
           _react2.default.createElement(
             _reactRouterDom.NavLink,
             { to: '/' },
-            _react2.default.createElement('img', { src: './img/wdllogo.png' })
+            _react2.default.createElement('img', { src: '/img/wdllogo.png' })
           )
         ),
         _react2.default.createElement(
           'div',
           { className: 'b' },
-          _react2.default.createElement('img', { src: './img/wmenu.png', id: 'btn', onClick: this.showMenu }),
+          _react2.default.createElement('img', { src: '/img/wmenu.png', id: 'btn', onClick: this.showMenu }),
           ' ',
-          _react2.default.createElement('img', { src: './img/cross.png', id: 'x', onClick: this.hideMenu })
+          _react2.default.createElement('img', { src: '/img/cross.png', id: 'x', onClick: this.hideMenu })
         ),
         _react2.default.createElement(
           _reactAddonsCssTransitionGroup2.default,
@@ -1482,7 +1482,7 @@ var projectData = [{
   name: 'OddCycle',
   category: 'wordpress',
   url: '/oddcycle',
-  image: './img/OddCycle.png'
+  image: 'img/OddCycle.png'
 
 }, {
   name: 'digital agency',
