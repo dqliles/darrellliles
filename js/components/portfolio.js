@@ -131,7 +131,7 @@ var App = function (_Component) {
               _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/uafootball', component: _UA2.default }),
               _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/primebeefhouse', component: _PB2.default }),
               _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/oddcycle', component: _OddCycle2.default }),
-              _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default })
+              _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: 'https://dqliles.github.io/darrellliles/', component: _Home2.default })
             )
           )
         )
