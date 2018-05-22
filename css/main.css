@@ -42,7 +42,7 @@ table {
     border-radius: 7px;
 
 }
-body {
+/*body {
   opacity: 1;
   transition: 1.5s opacity;
 }
@@ -50,7 +50,7 @@ body {
 body.fade {
     opacity: 0;
     transition: none;
-}
+}*/
 
 @media only screen and (min-width: 1200px) {
   .project-section {
