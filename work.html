@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Darrell Liles</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+  <body>
+      <script> document.body.classList.add('fade');</script>
+    <div class="app">
+      <div class="content">
+        <header>
+          <div class="a"><a href="index.html"><img src="./img/wdllogo.png" /></a></div>
+          <div class="b"><img src="./img/wmenu.png" id="btn" onclick=showMenu() /> <img src="./img/cross.png" id="x" onclick=hideMenu() /></div>
+
+              <nav id="nav">
+
+                  <a href="about.html" class='deg45'>About</a>
+                  <a href="work.html" class='deg135'>Work</a>
+                  <a href="contact.html" class='deg180'>Contact</a>
+             </nav>
+
+       </header>
+      <section id="portfolio">
+  <div id="portfolio-content">
+    <h1>Work</h1>
+    <div id="portfolio-nav">
+      <ul>
+        <li><a href="#">All</a></li>
+        <li><a href="#">Wordpress</a></li>
+        <li><a href="#">React</a></li>
+        <li><a href="#">Php</a></li>
+        <li><a href="#">Html &amp; Css</a></li>
+      </ul>
+    </div>
+    <div class="box">
+      <div class="col-md-3">
+        <div class="portfolio-boxes">
+          <div class="portfolio-img" style="background: url(&quot;img/UA2.png&quot;) center top / cover no-repeat;">
+            <div class="img-details"><a href="./projects/uafootball.html"><span></span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="portfolio-boxes">
+          <div class="portfolio-img" style="background: url(&quot;img/gocart.png&quot;) center top / cover no-repeat;">
+            <div class="img-details"><a href="./projects/gocart.html"><span></span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="portfolio-boxes">
+          <div class="portfolio-img" style="background: url(&quot;img/OddCycle.png&quot;) center top / cover no-repeat;">
+            <div class="img-details"><a href="./projects/OddCycle.html"><span></span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="portfolio-boxes">
+          <div class="portfolio-img" style="background: url(&quot;http://www.ovocreatives.com/wp-content/uploads/2017/05/web-development.jpg&quot;) center top / cover no-repeat;">
+            <div class="img-details"><a><span></span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="portfolio-boxes">
+          <div class="portfolio-img" style="background: url(&quot;img/rchurch.png&quot;) center top / cover no-repeat;">
+            <div class="img-details"><a href="./projects/rchurch.html"><span></span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="portfolio-boxes">
+          <div class="portfolio-img" style="background: url(&quot;img/PB.png&quot;) center top / cover no-repeat;">
+            <div class="img-details"><a href="#"><span></span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+      </div>
+    </div>
+
+    <script>
+
+  function showMenu() {
+    document.getElementById('nav').style.display = 'block';
+    document.getElementById('btn').style.display = 'none';
+    document.getElementById('x').style.display = 'block';
+  };
+
+  function hideMenu() {
+    document.getElementById('nav').style.display = 'none';
+    document.getElementById('btn').style.display = 'block';
+    document.getElementById('x').style.display = 'none';
+
+  };
+    </script>
+    <script src="main.js"></script>
+    <script src="./js/menu.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(e) {
+        document.body.classList.remove('fade');
+      });
+    </script>
+
+  </body>
+</html>

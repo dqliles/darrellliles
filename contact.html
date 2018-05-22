@@ -24,14 +24,49 @@
              </nav>
 
        </header>
-        <div class="home">
-          <div class="tagln">
-            <h1> <span>DARRELL LILES</span><br />
-            </h1>
-            <br />
-            <p>Im a front-end developer focused on crafting clean & user friendly experiences.</p>
+
+       <div class="contact-container">
+         <div id="contact-greeting">
+           <h1 id="contact-h1" class="contact-greet">Lets Talk</h1>
+           <p id="contact-p" class="contact-greet">Reach out for a project or just to say hello!</p>
+         </div>
+         <div class="wrapper">
+
+         <div class="contact">
+         <h3></h3>
+         <div class="alert">Your message has been sent</div>
+         <form id="contactForm">
+           <p>
+             <label>Name</label>
+             <input type="text" name="name" id="name" required />
+           </p>
+           <p>
+             <label>Company</label>
+             <input type="text" name="company" id="company" />
+           </p>
+           <p>
+             <label>Email Address</label>
+             <input type="email" name="email" id="email" required />
+           </p>
+           <p>
+             <label>Phone Number</label>
+             <input type="text" name="phone" id="phone" />
+           </p>
+           <p class="full">
+             <label>Message</label>
+             <textarea name="message" rows="5" id="message"></textarea>
+           </p>
+           <p class="full">
+             <button type="submit">Submit</button>
+           </p>
+         </form>
          </div>
          </div>
+       </div>
+
+
+
+
         <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
       </div>
     </div>
